@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <title>
+    JS Scratch
+  </title>
+  <script>
+    var displayText = function(data) {
+      console.log(data.data);
+    }
+    
+    window.onload = function() {  
+      var script = document.createElement('script');
+      script.id = 'display-text-script';
+      script.src = 'http://localhost:3000/jsonp.js';
+      document.body.appendChild(script);
+      var scriptTag = document.getElementById('display-text-script').remove();
+    }
+  </script>
+</head>
+<body>
+
+</body>
+</html>
+

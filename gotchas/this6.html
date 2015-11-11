@@ -1,0 +1,55 @@
+<html>
+<body>
+// Assigning Methods to Variabls //
+// What will be console logged?
+<script>
+  var data = [{
+    name:"Samantha", 
+    age:12
+  },{
+    name:"Alexis", 
+    age:14
+  }];
+
+  var user = {
+    
+    data:[{
+      name:"T. Woods", 
+      age:37
+    },{
+      name:"P. Mickelson", 
+      age:43
+    }],
+    
+    showData: function(event) {
+      var randomNum = ((Math.random() * 2 | 0) + 1) - 1;
+      console.log (this.data[randomNum].name + " " + this.data[randomNum].age);
+    }
+
+  }
+
+  var showUserData = user.showData;
+  
+  showUserData();
+
+
+
+//----------------------
+// Answer
+//----------------------
+
+// showUserData() => Samantha 12
+
+// When assigning the object method to a variable, the
+// showUserData() is called from global object
+
+// To fix..
+
+// Be sure to bind the user when assigning it to a variable
+  var showUserData = user.showData.bind (user);
+  showUserData (); // P. Mickelson 43
+
+
+</script>
+</body>
+</html>

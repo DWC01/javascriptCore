@@ -1,0 +1,4 @@
+var Queue = Queue function() {
+
+  
+}

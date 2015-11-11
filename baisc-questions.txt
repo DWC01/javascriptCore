@@ -1,0 +1,11 @@
+Basic Questions:
+
+How does internet work?
+
+1.) Client -> 
+3.) Internet Service Provider (ISP) ->
+4.) Domain Name System (DNS) ->
+5.) Map to IP Adress of server
+
+Throughout this process the data you send gets sent in packets, pushed along by routers. These routers keep track of your IP Adress, and every subsequent IP Address along the way, ensureing that the data sent back from the server goes to you..
+
