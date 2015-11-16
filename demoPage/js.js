@@ -67,20 +67,20 @@
 
 // console.log(sayHelloMr('Christian'));
 
-var farmAnimals = {
-  dogs: 4,
-  snakes: 6,
-  cows: 8
-}
+// var farmAnimals = {
+//   dogs: 4,
+//   snakes: 6,
+//   cows: 8
+// }
 
-farmAnimals.prototype.dogs = 8;
-farmAnimals.prototype.cats = 6;
+// farmAnimals.prototype.dogs = 8;
+// farmAnimals.prototype.cats = 6;
 
-for(animal in farmAnimals) {
-  if(farmAnimals.hasOwnProperty(animal)) {
-    console.log(animal + ": " + farmAnimals[animal]);
-  }
-}
+// for(animal in farmAnimals) {
+//   if(farmAnimals.hasOwnProperty(animal)) {
+//     console.log(animal + ": " + farmAnimals[animal]);
+//   }
+// }
 
 
 

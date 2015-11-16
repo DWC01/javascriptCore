@@ -97,8 +97,6 @@ var BinarSearchTree = function() {
 
     while (queue.length) {
       var node = queue.shift();
-      console.log(node.value);
-
       if (node.left) {queue.push(node.left);}
       if (node.right) {queue.push(node.right);}
     }

@@ -1,0 +1,10 @@
+{
+  "name": "component-exersizes",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-mocha-test": "latest",
+    "mocha": "latest",
+    "chai": "latest"
+  }
+}

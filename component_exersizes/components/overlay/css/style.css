@@ -1,0 +1,33 @@
+body,html {
+  height: 100%;
+}
+
+body {
+  margin:0;
+}
+
+.overlay {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(0,0,0,.8);
+}
+
+.overlay article {
+  background: #fff;
+  width: 400px;
+  height: 400px;
+}
+
+.hide {
+  display: none;
+}
