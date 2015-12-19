@@ -1,0 +1,24 @@
+Its time to level up..
+
+A programming paradigm is a fundamental style of computer programming, serving as a way of building the structure and elements of computer programs.
+
+
+JavaScript popularized Two Paradigms:
+
+Prototypal Inheritance (objects without classes, and prototype delegation, aka OLOO — Objects Linking to Other Objects), and
+
+Functional Programming (enabled by lambdas with closure)
+
+
+OO - 
+Parent Child Coupling is the tightest form of cuppling
+
+
+dynamic object extension
+
+
+“Program to an interface, not an implementation,” and “favor object composition over class inheritance.”
+
+
+Google “new considered harmful,” “inheritance considered harmful,” and “super is a code smell.”
+

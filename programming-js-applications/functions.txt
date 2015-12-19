@@ -1,0 +1,40 @@
+Function Definitions 
+
+1.) Higher Order Functions: Functions that return or consume functions as data
+2.) First Class Citizens: You can use functions anywhere you would use a value
+3.) Lambdas: Passing a function as data, treating it like a value. 
+    If a function is used as an argument or return value, it's a lambda.
+4.) Closure: Function accessing data contained outside its function scope.
+    In a nutshell, a closure stores function state, even after the function has returned.
+
+
+JavaScript builds its execution environment in two passes.
+
+1.) The declaration pass: sets up the runtime environment, where it scans 
+for all variable and function declarations, and creates the identifiers.
+
+2.) The execution pass: Executes the code, initializes vars, and invokes functions
+
+Arity is the number of variables you pass into a function
+
+Polymorphic functions behave differently based on the parameters you pass into them
+
+Method Dispatch: Is the mechanism that determines what to do when an object recieves 
+a message. First checks the object, then checks its prototype
+
+Dynamic Dispatch: Enables polymorphism by selecting the appropriate method to run, 
+based on the parameters sent in during runtime.
+
+Generics 
+Generic programming is a style that attempts to express algorithms and data structures in a way that is type agnostic.
+
+
+// --- Functional Programming ------
+
+Functional Programming is a style of programming that uses higher-order functions
+(as opposed to objects and data) to facilitate code organization and re-use
+
+Higher order functions take functions as data as args, or return functions
+
+To maximize code reuse, try to make as many functions as possible both stateless and generic (or polymorphic). Many jQuery methods satisfy both requirements. Such functions tend to be very useful library methods.
+
